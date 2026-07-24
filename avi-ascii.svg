@@ -1,0 +1,1390 @@
+<svg viewBox="0 0 500 444" width="500" height="444"
+     xmlns="http://www.w3.org/2000/svg">
+  <style>
+
+  .row0-wipe {
+    animation: wiperow0 0.5s steps(30, end) 0.0s forwards;
+  }
+  .row0-cursor {
+    opacity: 0;
+    animation: cursormoverow0 0.5s linear 0.0s forwards,
+               cursorfade 0.15s linear 0.5s forwards;
+  }
+  @keyframes wiperow0 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow0 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row1-wipe {
+    animation: wiperow1 0.5s steps(30, end) 0.035s forwards;
+  }
+  .row1-cursor {
+    opacity: 0;
+    animation: cursormoverow1 0.5s linear 0.035s forwards,
+               cursorfade 0.15s linear 0.535s forwards;
+  }
+  @keyframes wiperow1 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow1 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row2-wipe {
+    animation: wiperow2 0.5s steps(30, end) 0.07s forwards;
+  }
+  .row2-cursor {
+    opacity: 0;
+    animation: cursormoverow2 0.5s linear 0.07s forwards,
+               cursorfade 0.15s linear 0.5700000000000001s forwards;
+  }
+  @keyframes wiperow2 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow2 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row3-wipe {
+    animation: wiperow3 0.5s steps(30, end) 0.10500000000000001s forwards;
+  }
+  .row3-cursor {
+    opacity: 0;
+    animation: cursormoverow3 0.5s linear 0.10500000000000001s forwards,
+               cursorfade 0.15s linear 0.605s forwards;
+  }
+  @keyframes wiperow3 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow3 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row4-wipe {
+    animation: wiperow4 0.5s steps(30, end) 0.14s forwards;
+  }
+  .row4-cursor {
+    opacity: 0;
+    animation: cursormoverow4 0.5s linear 0.14s forwards,
+               cursorfade 0.15s linear 0.64s forwards;
+  }
+  @keyframes wiperow4 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow4 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row5-wipe {
+    animation: wiperow5 0.5s steps(30, end) 0.17500000000000002s forwards;
+  }
+  .row5-cursor {
+    opacity: 0;
+    animation: cursormoverow5 0.5s linear 0.17500000000000002s forwards,
+               cursorfade 0.15s linear 0.675s forwards;
+  }
+  @keyframes wiperow5 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow5 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row6-wipe {
+    animation: wiperow6 0.5s steps(30, end) 0.21000000000000002s forwards;
+  }
+  .row6-cursor {
+    opacity: 0;
+    animation: cursormoverow6 0.5s linear 0.21000000000000002s forwards,
+               cursorfade 0.15s linear 0.71s forwards;
+  }
+  @keyframes wiperow6 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow6 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row7-wipe {
+    animation: wiperow7 0.5s steps(30, end) 0.24500000000000002s forwards;
+  }
+  .row7-cursor {
+    opacity: 0;
+    animation: cursormoverow7 0.5s linear 0.24500000000000002s forwards,
+               cursorfade 0.15s linear 0.745s forwards;
+  }
+  @keyframes wiperow7 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow7 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row8-wipe {
+    animation: wiperow8 0.5s steps(30, end) 0.28s forwards;
+  }
+  .row8-cursor {
+    opacity: 0;
+    animation: cursormoverow8 0.5s linear 0.28s forwards,
+               cursorfade 0.15s linear 0.78s forwards;
+  }
+  @keyframes wiperow8 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow8 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row9-wipe {
+    animation: wiperow9 0.5s steps(30, end) 0.31500000000000006s forwards;
+  }
+  .row9-cursor {
+    opacity: 0;
+    animation: cursormoverow9 0.5s linear 0.31500000000000006s forwards,
+               cursorfade 0.15s linear 0.8150000000000001s forwards;
+  }
+  @keyframes wiperow9 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow9 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row10-wipe {
+    animation: wiperow10 0.5s steps(30, end) 0.35000000000000003s forwards;
+  }
+  .row10-cursor {
+    opacity: 0;
+    animation: cursormoverow10 0.5s linear 0.35000000000000003s forwards,
+               cursorfade 0.15s linear 0.8500000000000001s forwards;
+  }
+  @keyframes wiperow10 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow10 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row11-wipe {
+    animation: wiperow11 0.5s steps(30, end) 0.385s forwards;
+  }
+  .row11-cursor {
+    opacity: 0;
+    animation: cursormoverow11 0.5s linear 0.385s forwards,
+               cursorfade 0.15s linear 0.885s forwards;
+  }
+  @keyframes wiperow11 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow11 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row12-wipe {
+    animation: wiperow12 0.5s steps(30, end) 0.42000000000000004s forwards;
+  }
+  .row12-cursor {
+    opacity: 0;
+    animation: cursormoverow12 0.5s linear 0.42000000000000004s forwards,
+               cursorfade 0.15s linear 0.92s forwards;
+  }
+  @keyframes wiperow12 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow12 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row13-wipe {
+    animation: wiperow13 0.5s steps(30, end) 0.45500000000000007s forwards;
+  }
+  .row13-cursor {
+    opacity: 0;
+    animation: cursormoverow13 0.5s linear 0.45500000000000007s forwards,
+               cursorfade 0.15s linear 0.9550000000000001s forwards;
+  }
+  @keyframes wiperow13 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow13 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row14-wipe {
+    animation: wiperow14 0.5s steps(30, end) 0.49000000000000005s forwards;
+  }
+  .row14-cursor {
+    opacity: 0;
+    animation: cursormoverow14 0.5s linear 0.49000000000000005s forwards,
+               cursorfade 0.15s linear 0.99s forwards;
+  }
+  @keyframes wiperow14 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow14 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row15-wipe {
+    animation: wiperow15 0.5s steps(30, end) 0.525s forwards;
+  }
+  .row15-cursor {
+    opacity: 0;
+    animation: cursormoverow15 0.5s linear 0.525s forwards,
+               cursorfade 0.15s linear 1.025s forwards;
+  }
+  @keyframes wiperow15 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow15 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row16-wipe {
+    animation: wiperow16 0.5s steps(30, end) 0.56s forwards;
+  }
+  .row16-cursor {
+    opacity: 0;
+    animation: cursormoverow16 0.5s linear 0.56s forwards,
+               cursorfade 0.15s linear 1.06s forwards;
+  }
+  @keyframes wiperow16 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow16 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row17-wipe {
+    animation: wiperow17 0.5s steps(30, end) 0.5950000000000001s forwards;
+  }
+  .row17-cursor {
+    opacity: 0;
+    animation: cursormoverow17 0.5s linear 0.5950000000000001s forwards,
+               cursorfade 0.15s linear 1.0950000000000002s forwards;
+  }
+  @keyframes wiperow17 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow17 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row18-wipe {
+    animation: wiperow18 0.5s steps(30, end) 0.6300000000000001s forwards;
+  }
+  .row18-cursor {
+    opacity: 0;
+    animation: cursormoverow18 0.5s linear 0.6300000000000001s forwards,
+               cursorfade 0.15s linear 1.1300000000000001s forwards;
+  }
+  @keyframes wiperow18 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow18 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row19-wipe {
+    animation: wiperow19 0.5s steps(30, end) 0.665s forwards;
+  }
+  .row19-cursor {
+    opacity: 0;
+    animation: cursormoverow19 0.5s linear 0.665s forwards,
+               cursorfade 0.15s linear 1.165s forwards;
+  }
+  @keyframes wiperow19 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow19 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row20-wipe {
+    animation: wiperow20 0.5s steps(30, end) 0.7000000000000001s forwards;
+  }
+  .row20-cursor {
+    opacity: 0;
+    animation: cursormoverow20 0.5s linear 0.7000000000000001s forwards,
+               cursorfade 0.15s linear 1.2000000000000002s forwards;
+  }
+  @keyframes wiperow20 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow20 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row21-wipe {
+    animation: wiperow21 0.5s steps(30, end) 0.7350000000000001s forwards;
+  }
+  .row21-cursor {
+    opacity: 0;
+    animation: cursormoverow21 0.5s linear 0.7350000000000001s forwards,
+               cursorfade 0.15s linear 1.235s forwards;
+  }
+  @keyframes wiperow21 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow21 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row22-wipe {
+    animation: wiperow22 0.5s steps(30, end) 0.77s forwards;
+  }
+  .row22-cursor {
+    opacity: 0;
+    animation: cursormoverow22 0.5s linear 0.77s forwards,
+               cursorfade 0.15s linear 1.27s forwards;
+  }
+  @keyframes wiperow22 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow22 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row23-wipe {
+    animation: wiperow23 0.5s steps(30, end) 0.805s forwards;
+  }
+  .row23-cursor {
+    opacity: 0;
+    animation: cursormoverow23 0.5s linear 0.805s forwards,
+               cursorfade 0.15s linear 1.3050000000000002s forwards;
+  }
+  @keyframes wiperow23 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow23 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row24-wipe {
+    animation: wiperow24 0.5s steps(30, end) 0.8400000000000001s forwards;
+  }
+  .row24-cursor {
+    opacity: 0;
+    animation: cursormoverow24 0.5s linear 0.8400000000000001s forwards,
+               cursorfade 0.15s linear 1.34s forwards;
+  }
+  @keyframes wiperow24 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow24 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row25-wipe {
+    animation: wiperow25 0.5s steps(30, end) 0.8750000000000001s forwards;
+  }
+  .row25-cursor {
+    opacity: 0;
+    animation: cursormoverow25 0.5s linear 0.8750000000000001s forwards,
+               cursorfade 0.15s linear 1.375s forwards;
+  }
+  @keyframes wiperow25 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow25 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row26-wipe {
+    animation: wiperow26 0.5s steps(30, end) 0.9100000000000001s forwards;
+  }
+  .row26-cursor {
+    opacity: 0;
+    animation: cursormoverow26 0.5s linear 0.9100000000000001s forwards,
+               cursorfade 0.15s linear 1.4100000000000001s forwards;
+  }
+  @keyframes wiperow26 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow26 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row27-wipe {
+    animation: wiperow27 0.5s steps(30, end) 0.9450000000000001s forwards;
+  }
+  .row27-cursor {
+    opacity: 0;
+    animation: cursormoverow27 0.5s linear 0.9450000000000001s forwards,
+               cursorfade 0.15s linear 1.445s forwards;
+  }
+  @keyframes wiperow27 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow27 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row28-wipe {
+    animation: wiperow28 0.5s steps(30, end) 0.9800000000000001s forwards;
+  }
+  .row28-cursor {
+    opacity: 0;
+    animation: cursormoverow28 0.5s linear 0.9800000000000001s forwards,
+               cursorfade 0.15s linear 1.48s forwards;
+  }
+  @keyframes wiperow28 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow28 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row29-wipe {
+    animation: wiperow29 0.5s steps(30, end) 1.0150000000000001s forwards;
+  }
+  .row29-cursor {
+    opacity: 0;
+    animation: cursormoverow29 0.5s linear 1.0150000000000001s forwards,
+               cursorfade 0.15s linear 1.5150000000000001s forwards;
+  }
+  @keyframes wiperow29 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow29 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row30-wipe {
+    animation: wiperow30 0.5s steps(30, end) 1.05s forwards;
+  }
+  .row30-cursor {
+    opacity: 0;
+    animation: cursormoverow30 0.5s linear 1.05s forwards,
+               cursorfade 0.15s linear 1.55s forwards;
+  }
+  @keyframes wiperow30 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow30 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row31-wipe {
+    animation: wiperow31 0.5s steps(30, end) 1.0850000000000002s forwards;
+  }
+  .row31-cursor {
+    opacity: 0;
+    animation: cursormoverow31 0.5s linear 1.0850000000000002s forwards,
+               cursorfade 0.15s linear 1.5850000000000002s forwards;
+  }
+  @keyframes wiperow31 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow31 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row32-wipe {
+    animation: wiperow32 0.5s steps(30, end) 1.12s forwards;
+  }
+  .row32-cursor {
+    opacity: 0;
+    animation: cursormoverow32 0.5s linear 1.12s forwards,
+               cursorfade 0.15s linear 1.62s forwards;
+  }
+  @keyframes wiperow32 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow32 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row33-wipe {
+    animation: wiperow33 0.5s steps(30, end) 1.155s forwards;
+  }
+  .row33-cursor {
+    opacity: 0;
+    animation: cursormoverow33 0.5s linear 1.155s forwards,
+               cursorfade 0.15s linear 1.655s forwards;
+  }
+  @keyframes wiperow33 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow33 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row34-wipe {
+    animation: wiperow34 0.5s steps(30, end) 1.1900000000000002s forwards;
+  }
+  .row34-cursor {
+    opacity: 0;
+    animation: cursormoverow34 0.5s linear 1.1900000000000002s forwards,
+               cursorfade 0.15s linear 1.6900000000000002s forwards;
+  }
+  @keyframes wiperow34 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow34 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row35-wipe {
+    animation: wiperow35 0.5s steps(30, end) 1.225s forwards;
+  }
+  .row35-cursor {
+    opacity: 0;
+    animation: cursormoverow35 0.5s linear 1.225s forwards,
+               cursorfade 0.15s linear 1.725s forwards;
+  }
+  @keyframes wiperow35 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow35 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row36-wipe {
+    animation: wiperow36 0.5s steps(30, end) 1.2600000000000002s forwards;
+  }
+  .row36-cursor {
+    opacity: 0;
+    animation: cursormoverow36 0.5s linear 1.2600000000000002s forwards,
+               cursorfade 0.15s linear 1.7600000000000002s forwards;
+  }
+  @keyframes wiperow36 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow36 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row37-wipe {
+    animation: wiperow37 0.5s steps(30, end) 1.2950000000000002s forwards;
+  }
+  .row37-cursor {
+    opacity: 0;
+    animation: cursormoverow37 0.5s linear 1.2950000000000002s forwards,
+               cursorfade 0.15s linear 1.7950000000000002s forwards;
+  }
+  @keyframes wiperow37 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow37 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row38-wipe {
+    animation: wiperow38 0.5s steps(30, end) 1.33s forwards;
+  }
+  .row38-cursor {
+    opacity: 0;
+    animation: cursormoverow38 0.5s linear 1.33s forwards,
+               cursorfade 0.15s linear 1.83s forwards;
+  }
+  @keyframes wiperow38 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow38 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row39-wipe {
+    animation: wiperow39 0.5s steps(30, end) 1.3650000000000002s forwards;
+  }
+  .row39-cursor {
+    opacity: 0;
+    animation: cursormoverow39 0.5s linear 1.3650000000000002s forwards,
+               cursorfade 0.15s linear 1.8650000000000002s forwards;
+  }
+  @keyframes wiperow39 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow39 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row40-wipe {
+    animation: wiperow40 0.5s steps(30, end) 1.4000000000000001s forwards;
+  }
+  .row40-cursor {
+    opacity: 0;
+    animation: cursormoverow40 0.5s linear 1.4000000000000001s forwards,
+               cursorfade 0.15s linear 1.9000000000000001s forwards;
+  }
+  @keyframes wiperow40 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow40 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row41-wipe {
+    animation: wiperow41 0.5s steps(30, end) 1.435s forwards;
+  }
+  .row41-cursor {
+    opacity: 0;
+    animation: cursormoverow41 0.5s linear 1.435s forwards,
+               cursorfade 0.15s linear 1.935s forwards;
+  }
+  @keyframes wiperow41 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow41 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row42-wipe {
+    animation: wiperow42 0.5s steps(30, end) 1.4700000000000002s forwards;
+  }
+  .row42-cursor {
+    opacity: 0;
+    animation: cursormoverow42 0.5s linear 1.4700000000000002s forwards,
+               cursorfade 0.15s linear 1.9700000000000002s forwards;
+  }
+  @keyframes wiperow42 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow42 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row43-wipe {
+    animation: wiperow43 0.5s steps(30, end) 1.5050000000000001s forwards;
+  }
+  .row43-cursor {
+    opacity: 0;
+    animation: cursormoverow43 0.5s linear 1.5050000000000001s forwards,
+               cursorfade 0.15s linear 2.005s forwards;
+  }
+  @keyframes wiperow43 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow43 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row44-wipe {
+    animation: wiperow44 0.5s steps(30, end) 1.54s forwards;
+  }
+  .row44-cursor {
+    opacity: 0;
+    animation: cursormoverow44 0.5s linear 1.54s forwards,
+               cursorfade 0.15s linear 2.04s forwards;
+  }
+  @keyframes wiperow44 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow44 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row45-wipe {
+    animation: wiperow45 0.5s steps(30, end) 1.5750000000000002s forwards;
+  }
+  .row45-cursor {
+    opacity: 0;
+    animation: cursormoverow45 0.5s linear 1.5750000000000002s forwards,
+               cursorfade 0.15s linear 2.075s forwards;
+  }
+  @keyframes wiperow45 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow45 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row46-wipe {
+    animation: wiperow46 0.5s steps(30, end) 1.61s forwards;
+  }
+  .row46-cursor {
+    opacity: 0;
+    animation: cursormoverow46 0.5s linear 1.61s forwards,
+               cursorfade 0.15s linear 2.1100000000000003s forwards;
+  }
+  @keyframes wiperow46 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow46 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row47-wipe {
+    animation: wiperow47 0.5s steps(30, end) 1.6450000000000002s forwards;
+  }
+  .row47-cursor {
+    opacity: 0;
+    animation: cursormoverow47 0.5s linear 1.6450000000000002s forwards,
+               cursorfade 0.15s linear 2.1450000000000005s forwards;
+  }
+  @keyframes wiperow47 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow47 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row48-wipe {
+    animation: wiperow48 0.5s steps(30, end) 1.6800000000000002s forwards;
+  }
+  .row48-cursor {
+    opacity: 0;
+    animation: cursormoverow48 0.5s linear 1.6800000000000002s forwards,
+               cursorfade 0.15s linear 2.18s forwards;
+  }
+  @keyframes wiperow48 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow48 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row49-wipe {
+    animation: wiperow49 0.5s steps(30, end) 1.715s forwards;
+  }
+  .row49-cursor {
+    opacity: 0;
+    animation: cursormoverow49 0.5s linear 1.715s forwards,
+               cursorfade 0.15s linear 2.215s forwards;
+  }
+  @keyframes wiperow49 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow49 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row50-wipe {
+    animation: wiperow50 0.5s steps(30, end) 1.7500000000000002s forwards;
+  }
+  .row50-cursor {
+    opacity: 0;
+    animation: cursormoverow50 0.5s linear 1.7500000000000002s forwards,
+               cursorfade 0.15s linear 2.25s forwards;
+  }
+  @keyframes wiperow50 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow50 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row51-wipe {
+    animation: wiperow51 0.5s steps(30, end) 1.7850000000000001s forwards;
+  }
+  .row51-cursor {
+    opacity: 0;
+    animation: cursormoverow51 0.5s linear 1.7850000000000001s forwards,
+               cursorfade 0.15s linear 2.285s forwards;
+  }
+  @keyframes wiperow51 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow51 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  .row52-wipe {
+    animation: wiperow52 0.5s steps(30, end) 1.8200000000000003s forwards;
+  }
+  .row52-cursor {
+    opacity: 0;
+    animation: cursormoverow52 0.5s linear 1.8200000000000003s forwards,
+               cursorfade 0.15s linear 2.3200000000000003s forwards;
+  }
+  @keyframes wiperow52 {
+    from { width: 0; }
+    to { width: 480.0px; }
+  }
+  @keyframes cursormoverow52 {
+    0%   { opacity: 1; transform: translateX(0); }
+    100% { opacity: 1; transform: translateX(480.0px); }
+  }
+
+  @keyframes cursorfade {
+    to { opacity: 0; }
+  }
+
+  </style>
+  <rect width="100%" height="100%" fill="transparent"/>
+
+  <clipPath id="cliprow0">
+    <rect class="row0-wipe" x="0" y="10.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow0)">
+    <text x="10" y="18.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                                                                                                    </text>
+  </g>
+  <rect class="row0-cursor" x="10" y="11.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow1">
+    <rect class="row1-wipe" x="0" y="18.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow1)">
+    <text x="10" y="26.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                                                                                                    </text>
+  </g>
+  <rect class="row1-cursor" x="10" y="19.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow2">
+    <rect class="row2-wipe" x="0" y="26.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow2)">
+    <text x="10" y="34.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                                                                                                    </text>
+  </g>
+  <rect class="row2-cursor" x="10" y="27.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow3">
+    <rect class="row3-wipe" x="0" y="34.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow3)">
+    <text x="10" y="42.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                                                                                                    </text>
+  </g>
+  <rect class="row3-cursor" x="10" y="35.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow4">
+    <rect class="row4-wipe" x="0" y="42.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow4)">
+    <text x="10" y="50.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                                          .``:::``.                                                 </text>
+  </g>
+  <rect class="row4-cursor" x="10" y="43.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow5">
+    <rect class="row5-wipe" x="0" y="50.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow5)">
+    <text x="10" y="58.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                                     .:+*csccsssssc**=`.                                            </text>
+  </g>
+  <rect class="row5-cursor" x="10" y="51.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow6">
+    <rect class="row6-wipe" x="0" y="58.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow6)">
+    <text x="10" y="66.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                                   :+c##ss#s#s*cs######c+`                                          </text>
+  </g>
+  <rect class="row6-cursor" x="10" y="59.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow7">
+    <rect class="row7-wipe" x="0" y="66.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow7)">
+    <text x="10" y="74.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                                 :*###sccc##%%#*+c#%%###%s+.                                        </text>
+  </g>
+  <rect class="row7-cursor" x="10" y="67.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow8">
+    <rect class="row8-wipe" x="0" y="74.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow8)">
+    <text x="10" y="82.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                               .+####sccss#%%%#c+=+ccs###%#c`                                       </text>
+  </g>
+  <rect class="row8-cursor" x="10" y="75.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow9">
+    <rect class="row9-wipe" x="0" y="82.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow9)">
+    <text x="10" y="90.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                               =sss#sccccsccc+==--::::=+c#%#c`                                      </text>
+  </g>
+  <rect class="row9-cursor" x="10" y="83.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow10">
+    <rect class="row10-wipe" x="0" y="90.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow10)">
+    <text x="10" y="98.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                              `s####sccc+=-+--:::```:..`=*#%%s:                                     </text>
+  </g>
+  <rect class="row10-cursor" x="10" y="91.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow11">
+    <rect class="row11-wipe" x="0" y="98.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow11)">
+    <text x="10" y="106.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                             .+######c*=-:-:````````::`:-=+c%%s-.                                   </text>
+  </g>
+  <rect class="row11-cursor" x="10" y="99.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow12">
+    <rect class="row12-wipe" x="0" y="106.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow12)">
+    <text x="10" y="114.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                             :c#####s*=-:`....`.```:::::-===*#%+:                                   </text>
+  </g>
+  <rect class="row12-cursor" x="10" y="107.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow13">
+    <rect class="row13-wipe" x="0" y="114.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow13)">
+    <text x="10" y="122.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                             -c####c*=-:`.....``````:```:::--*@*:.                                  </text>
+  </g>
+  <rect class="row13-cursor" x="10" y="115.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow14">
+    <rect class="row14-wipe" x="0" y="122.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow14)">
+    <text x="10" y="130.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                            .=s##%%#*=-`..    .`.``````-+*cc+-s*:.                                  </text>
+  </g>
+  <rect class="row14-cursor" x="10" y="123.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow15">
+    <rect class="row15-wipe" x="0" y="130.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow15)">
+    <text x="10" y="138.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                            .=c#%%%%*-:`.:==+++++--:=+s%%#sss***:                                   </text>
+  </g>
+  <rect class="row15-cursor" x="10" y="131.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow16">
+    <rect class="row16-wipe" x="0" y="138.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow16)">
+    <text x="10" y="146.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                            .=c##%@s=``=*cccssssc+-=*##s******+%*                                   </text>
+  </g>
+  <rect class="row16-cursor" x="10" y="139.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow17">
+    <rect class="row17-wipe" x="0" y="146.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow17)">
+    <text x="10" y="154.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                             `*s#%%+:`=*===+csss*:.`=s%cc%scs*-c*                                   </text>
+  </g>
+  <rect class="row17-cursor" x="10" y="147.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow18">
+    <rect class="row18-wipe" x="0" y="154.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow18)">
+    <text x="10" y="162.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                             --`c%#+::::=sss@%c%s=`.`+sscccc+-:==                                   </text>
+  </g>
+  <rect class="row18-cursor" x="10" y="155.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow19">
+    <rect class="row19-wipe" x="0" y="162.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow19)">
+    <text x="10" y="170.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                             -+-+s#*::`:=+++ccc*-`..`:+*+=-:``:::                                   </text>
+  </g>
+  <rect class="row19-cursor" x="10" y="163.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow20">
+    <rect class="row20-wipe" x="0" y="170.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow20)">
+    <text x="10" y="178.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                             -+=cc+c=````:-===-`.```.`--+-`.``::`                                   </text>
+  </g>
+  <rect class="row20-cursor" x="10" y="171.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow21">
+    <rect class="row21-wipe" x="0" y="178.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow21)">
+    <text x="10" y="186.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                             -*--==**:``````:--=:`...`:=+#c-::-=`                                   </text>
+  </g>
+  <rect class="row21-cursor" x="10" y="179.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow22">
+    <rect class="row22-wipe" x="0" y="186.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow22)">
+    <text x="10" y="194.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                             :++=::-=-::`..`:=c+:`::`-c%ccsc+=++`                                   </text>
+  </g>
+  <rect class="row22-cursor" x="10" y="187.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow23">
+    <rect class="row23-wipe" x="0" y="194.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow23)">
+    <text x="10" y="202.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                             ::=+===*=::```:+c*`..``=***++s#c+*+`                                   </text>
+  </g>
+  <rect class="row23-cursor" x="10" y="195.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow24">
+    <rect class="row24-wipe" x="0" y="202.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow24)">
+    <text x="10" y="210.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                             .``.-cs%*::`:-+c*=-:::=+*ccs###++**:                                   </text>
+  </g>
+  <rect class="row24-cursor" x="10" y="203.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow25">
+    <rect class="row25-wipe" x="0" y="210.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow25)">
+    <text x="10" y="218.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                              .. -cc%%+::`:-=*+=+*+***ccss***c*c-                                   </text>
+  </g>
+  <rect class="row25-cursor" x="10" y="211.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow26">
+    <rect class="row26-wipe" x="0" y="218.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow26)">
+    <text x="10" y="226.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                               `.+s+c%%*-::-==-`.`:-=+c#s*=+cc`:.                                   </text>
+  </g>
+  <rect class="row26-cursor" x="10" y="219.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow27">
+    <rect class="row27-wipe" x="0" y="226.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow27)">
+    <text x="10" y="234.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                               .`c%c#%%@s==---:`.. .`:--::-=c*.                                     </text>
+  </g>
+  <rect class="row27-cursor" x="10" y="227.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow28">
+    <rect class="row28-wipe" x="0" y="234.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow28)">
+    <text x="10" y="242.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                               .=s##%###%*=+==-:... .```:=*cs*-.                                    </text>
+  </g>
+  <rect class="row28-cursor" x="10" y="235.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow29">
+    <rect class="row29-wipe" x="0" y="242.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow29)">
+    <text x="10" y="250.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                              .:+*s####%@s::=+*+=-::=++*s##sc***+=:.                                </text>
+  </g>
+  <rect class="row29-cursor" x="10" y="243.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow30">
+    <rect class="row30-wipe" x="0" y="250.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow30)">
+    <text x="10" y="258.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                              `:+=c#%@@@@#-```:-===+cs#%%s*****++*#cc*+=-:`..                       </text>
+  </g>
+  <rect class="row30-cursor" x="10" y="251.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow31">
+    <rect class="row31-wipe" x="0" y="258.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow31)">
+    <text x="10" y="266.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                              .:-=*ssssss+-:`...```-=+csc==++++=-:*ss#c*+***cc*=::`.                </text>
+  </g>
+  <rect class="row31-cursor" x="10" y="259.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow32">
+    <rect class="row32-wipe" x="0" y="266.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow32)">
+    <text x="10" y="274.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                          .`-=+=+++++cc**--:`... ..`:=**=--===+=::*csc*++cs#*###scc+-:``.           </text>
+  </g>
+  <rect class="row32-cursor" x="10" y="267.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow33">
+    <rect class="row33-wipe" x="0" y="274.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow33)">
+    <text x="10" y="282.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                     .`:=+*ss%#cc****s*s=:::``......`-=+====-==:`-*cs**+*s##cssssc*+=-=sc=.         </text>
+  </g>
+  <rect class="row33-cursor" x="10" y="275.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow34">
+    <rect class="row34-wipe" x="0" y="282.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow34)">
+    <text x="10" y="290.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                  `=+-=cs##scss##c*=*scc=```.```...`:-==-++-:::.:*cc**+=+###c=+*c+-::-+#+=*:        </text>
+  </g>
+  <rect class="row34-cursor" x="10" y="283.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow35">
+    <rect class="row35-wipe" x="0" y="290.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow35)">
+    <text x="10" y="298.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">                .:s#+---+cc*+=+ss#+-+cs+c-`....``.`:::``:=:`.`:-+csc*+=-++**c+s*cc*=-=cs--=*:       </text>
+  </g>
+  <rect class="row35-cursor" x="10" y="291.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow36">
+    <rect class="row36-wipe" x="0" y="298.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow36)">
+    <text x="10" y="306.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">               :=-c#c--**cs#c+*++**==cs***-:`.....:-`.  :-:-=+*csc**=-=:-+s**#####s+-*#+:+==*`      </text>
+  </g>
+  <rect class="row36-cursor" x="10" y="299.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow37">
+    <rect class="row37-wipe" x="0" y="306.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow37)">
+    <text x="10" y="314.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">             `:=+-=##+-sss##%s****+--+*cc*++=--::``-:.`=+*csssssc*+=:==-s#sc+*ss#sc+=sc-=c+=*=.     </text>
+  </g>
+  <rect class="row37-cursor" x="10" y="307.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow38">
+    <rect class="row38-wipe" x="0" y="314.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow38)">
+    <text x="10" y="322.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">           .:-:-=-:*%c=+s#s#%*+*c##+:=++*cc***+++=-``.=css#sscc*+==-:=--=c#cc**s*c*=*#+:**=++=-.    </text>
+  </g>
+  <rect class="row38-cursor" x="10" y="315.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow39">
+    <rect class="row39-wipe" x="0" y="322.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow39)">
+    <text x="10" y="330.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">         .:--::==-==s#++cc*csc**ccs=:-+--+*+*c*+*=:`.`=*cscc**+===---+-:-csss#ss--:`ss:=s=++==+:    </text>
+  </g>
+  <rect class="row39-cursor" x="10" y="323.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow40">
+    <rect class="row40-wipe" x="0" y="330.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow40)">
+    <text x="10" y="338.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">       .--=----==-c==%s==+*cs%c++=*-::-+::==+cc=++`. :=*cccss#s+=----+::+####ss#cs+:#*:*c===-=++`   </text>
+  </g>
+  <rect class="row40-cursor" x="10" y="331.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow41">
+    <rect class="row41-wipe" x="0" y="338.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow41)">
+    <text x="10" y="346.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">      :+=---=--++:c*-s%*c#ss%#ss:`*=::`=cs*+=c*=-=:..:=*css##%s+----=+::-=*##sc##c*=#:-s*===-=*+-.  </text>
+  </g>
+  <rect class="row41-cursor" x="10" y="339.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow42">
+    <rect class="row42-wipe" x="0" y="346.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow42)">
+    <text x="10" y="354.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">    .-c*=-===---+:cs=+%#c##s##+-`:++```-c%ss+**=---`.:-*c**cscss=:--+=::::=cs+=cc::c*`*c=-=--=**+-  </text>
+  </g>
+  <rect class="row42-cursor" x="10" y="347.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow43">
+    <rect class="row43-wipe" x="0" y="354.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow43)">
+    <text x="10" y="362.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">   `-cs*===+----=:+#*-s@++c+#*:```-=:`:csss*=+**=-:=-`=**+*##sscc+--+-:::--:*c*ss:-s:-c+-=-:-*sc++` </text>
+  </g>
+  <rect class="row43-cursor" x="10" y="355.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow44">
+    <rect class="row44-wipe" x="0" y="362.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow44)">
+    <text x="10" y="370.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve"> .:-*ss*=-=+=-:-=:-ss+s@**sss```:.:=-:+*ssc#+-+*+-`--:=*+++s#s*s#c:==:::-+c+=*s*s*+*`cc-=-::=csc++= </text>
+  </g>
+  <rect class="row44-cursor" x="10" y="363.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow45">
+    <rect class="row45-wipe" x="0" y="370.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow45)">
+    <text x="10" y="378.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">`-:=c#s+=--++--==:`*#cc%*cs#+=c-:``:-*s**#s#*=++*=`:::+*+=*###sc#c-==--:=sss*##*csc-:s=::::-+csc==+`</text>
+  </g>
+  <rect class="row45-cursor" x="10" y="371.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow46">
+    <rect class="row46-wipe" x="0" y="378.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow46)">
+    <text x="10" y="386.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">:::=s#c*==--+===-:`=#ss%ccs#*cc*:```+ss*##c##==+*+::-:=*+-c#cs++c*-==-=-*s#%###c#ss:++`:`:::+ssc==+-</text>
+  </g>
+  <rect class="row46-cursor" x="10" y="379.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow47">
+    <rect class="row47-wipe" x="0" y="386.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow47)">
+    <text x="10" y="394.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">``:-csc*+==-=+==-:`:s##%sssscsc*=:``+*=:*sc##-=+**-`:-+++-c#ss=----=-=c#s#%%%##ssc#-c:`::-:-*#c+=-++</text>
+  </g>
+  <rect class="row47-cursor" x="10" y="387.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow48">
+    <rect class="row48-wipe" x="0" y="394.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow48)">
+    <text x="10" y="402.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">`::-*sss*====+--=-`:*#%@cs#s*s#cc=``:```=*scs-=+*c-`--+++:+ss+-:----===c++##%#s*-cs=*::--::=s#+==-=+</text>
+  </g>
+  <rect class="row48-cursor" x="10" y="395.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow49">
+    <rect class="row49-wipe" x="0" y="402.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow49)">
+    <text x="10" y="410.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">::::=s%s*+++=-:=+=:`+#%@s+ss*##*-:``:````:+c*--+**-::-*+=-+cc--:-----=----=*#%*-:ss*=:--:::*#s+==--*</text>
+  </g>
+  <rect class="row49-cursor" x="10" y="403.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow50">
+    <rect class="row50-wipe" x="0" y="410.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow50)">
+    <text x="10" y="418.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">=--:-c#sc***=-+*+=:-+%@@#+=+s#=::````````-ccc=-++*=`:=*++-*ss#*::-=-==--====*sc=:c#*::::-:+ss*==---+</text>
+  </g>
+  <rect class="row50-cursor" x="10" y="411.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow51">
+    <rect class="row51-wipe" x="0" y="418.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow51)">
+    <text x="10" y="426.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">**++-+#%#s******+==+c%@@%*+=c*:::```````-##ss+-+**-`:-*+=-s##*=-===+=-===+++=+c=-c#*:::--=ss*+=----=</text>
+  </g>
+  <rect class="row51-cursor" x="10" y="419.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+  <clipPath id="cliprow52">
+    <rect class="row52-wipe" x="0" y="426.0" width="0" height="12.0"/>
+  </clipPath>
+  <g clip-path="url(#cliprow52)">
+    <text x="10" y="434.0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"
+          font-size="8" fill="#9aa5b1" xml:space="preserve">sc*c*=*%#scccccc***cs%@%%s+==--:`::::`::-++##*-*++=`:=++==##c-===+*++=+=c*+*++c+-c%+:--:=ss*====-::-</text>
+  </g>
+  <rect class="row52-cursor" x="10" y="427.2" width="4.8" height="8" fill="#9aa5b1"/>
+
+</svg>
